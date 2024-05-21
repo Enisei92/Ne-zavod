@@ -1,0 +1,8 @@
+эхо "# Ne-zavod" >> README.md 
+git init
+
+git add README.md 
+git commit -m "первая фиксация"
+git branch -M main
+git remote add origin git@github.com:Enisei92/Ne-zavod.git
+git push -u origin main
